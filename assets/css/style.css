@@ -19,16 +19,13 @@ main {
 
 #gridHTML {
     width: 50%;
+    position: relative;
 }
 
 .box {
     aspect-ratio: 1;
     user-select: none;
     border: 1px solid black;
-}
-
-.box:hover {
-    cursor: pointer;
 }
 
 .easy {
@@ -44,9 +41,31 @@ main {
 }
 
 .active {
-    background-color: black;
     color: white;
     border: 1px solid white;
+    pointer-events: none;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.overlay h1 {
+    font-size: 120px;
+}
+
+.overlay span {
+    font-size: 50px;
 }
 
 @media screen and (min-width: 2000px) {
