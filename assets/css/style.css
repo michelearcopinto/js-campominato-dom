@@ -1,0 +1,62 @@
+body {
+    height: 100vh;
+}
+
+.form-select {
+    width: 120px;
+}
+
+img {
+    display: block;
+}
+
+main {
+    height: calc((100vh - 82.2px) - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gridHTML {
+    width: 50%;
+}
+
+.box {
+    aspect-ratio: 1;
+    user-select: none;
+    border: 1px solid black;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.easy {
+    width: calc(100% / 10);
+}
+
+.normal {
+    width: calc(100% / 9);
+}
+
+.hard {
+    width: calc(100% / 7);
+}
+
+.active {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+@media screen and (min-width: 2000px) {
+    #gridHTML {
+        width: 999px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #gridHTML {
+        width: 70%;
+    }
+}
