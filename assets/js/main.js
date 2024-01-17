@@ -80,7 +80,7 @@ playButton.addEventListener('click', function () {
 
                     if (randomBombs.includes(+caselle[i].innerText)) {
 
-                        caselle[i].style.backgroundColor = 'white';
+                        caselle[i].style.backgroundColor = 'grey';
                         caselle[i].classList.add('active');
                         caselle[i].innerText = ''
                         caselle[i].innerHTML = '<img src="./assets/img/bomb.png" alt="bomba">'
