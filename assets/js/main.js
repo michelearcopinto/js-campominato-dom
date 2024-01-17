@@ -112,7 +112,6 @@ playButton.addEventListener('click', function () {
         box.textContent = i;
 
         gridHTML.append(box);
-
     }
 
     caselle = gridHTML.querySelectorAll('div');
@@ -122,5 +121,4 @@ playButton.addEventListener('click', function () {
     gridHTML.append(resultOverlay);
 
     console.log(randomBombs);
-
 })

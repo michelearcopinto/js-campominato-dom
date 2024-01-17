@@ -20,6 +20,9 @@ main {
 #gridHTML {
     width: 50%;
     position: relative;
+    box-shadow: 0px 0px 150px -18px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 150px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 150px -18px rgba(0, 0, 0, 0.75);
 }
 
 .box {
